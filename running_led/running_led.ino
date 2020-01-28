@@ -7,8 +7,7 @@ void setup() {
 }
 
 void loop() {
-//  digitalWrite(Nomor pin, HIGH/LOW);
-  
+//  digitalWrite(Nomor pin, HIGH/LOW);   
   lednyala(2);
   lednyala(3);
   lednyala(4);
@@ -19,7 +18,7 @@ void ledmati(){
   digitalWrite(3, LOW);
   digitalWrite(4, LOW);
 }
-
+  
 void lednyala(int pin){
   digitalWrite(pin, HIGH);
   delay(200);
